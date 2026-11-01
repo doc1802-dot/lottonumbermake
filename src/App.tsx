@@ -87,7 +87,7 @@ export default function App() {
           {games.length === 0 ? (
             // 아직 버튼을 누르기 전
             <p className="py-10 text-center text-sm text-muted-foreground">
-              아래 버튼을 눌러 번호를 뽑아 보세요.
+              아래 버튼을 눌러 번호를 뽑아 보세요. (자동 배포 테스트)
             </p>
           ) : (
             // key에 round를 넣어 버튼을 누를 때마다 애니메이션이 다시 재생되게 한다
